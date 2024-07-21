@@ -1,0 +1,70 @@
+@import "../../vars.css";
+
+.container {
+  margin-top: 76px;
+  color: var(--color-text);
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.title {
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  justify-content: center;
+  text-align: center;
+}
+
+.plants {
+  margin-top: 37px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  width: 100%;
+}
+.environment, .function{
+  margin: 25px;
+  text-align: center;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  font-size: 16px;
+  color: #333;
+  outline: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.environment:hover, .environment:focus, .function:hover, .function:focus{
+  border-color: #576cbc;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+.env, .fun{
+  margin-bottom: 8px;
+  font-size: 20px;
+  color: #026428;
+}
+.puchu, .puchka{
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  font-size: 16px;
+  color: #333;
+  outline: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s, box-shadow 0.3s;
+
+}
